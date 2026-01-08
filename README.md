@@ -1,37 +1,124 @@
-🔍 AI Research Assistant (Powered by Gemini + Exa)
-This project is an intelligent and interactive research tool designed to streamline the way you explore information online. By combining the power of Google's Gemini (Flash 2.0) and the Exa Search API, this assistant rewrites user queries to make them more precise, fetches high-quality AI-curated search results, and then summarizes those results into clean, readable bullet points. The result is a faster, smarter, and more user-friendly research workflow, all within a sleek Streamlit interface.
+# **AI Research Assistant — Intelligent Web Research Tool**
 
-📘 Overview
-Traditional web search often yields overwhelming or vague results. This tool solves that problem by introducing AI at every stage of the research process:
+**AI Research Assistant** is a lightweight, **AI-powered research tool** built with **Streamlit**, **Google’s Gemini API**, and the **Exa Search API**. It enhances online research by turning vague queries into precise results, intelligently summarizing information, and presenting key insights in a clean and efficient interface.
 
-✍️ Query Rewriting – Gemini Flash refines and optimizes your query for precision.
+This project demonstrates practical expertise in **AI integration, natural language processing, search optimization, and interactive application development** — ideal for roles in AI, data science, and full-stack development.
 
-🌐 AI Web Search – Exa fetches the most relevant documents using semantic and context-based search.
+---
 
-🧠 AI Summarization – Gemini condenses full-page content into concise 3-bullet-point summaries.
+## 🌟 **Project Summary**
 
-🎛️ Streamlit Interface – An interactive frontend for input, output, and exploration.
+Traditional web search often returns overwhelming or irrelevant results, especially for research use cases. This tool improves the research experience by:
 
-This project is ideal for:
+* ✍️ **Query Rewriting:** Converts vague user prompts into optimized search queries using Gemini.
+* 🔎 **AI-Powered Search:** Uses Exa’s semantic search capabilities to fetch highly relevant results.
+* 🧠 **Intelligent Summarization:** Provides concise bullet-point summaries of results via Gemini.
+* 🖥️ **Interactive UI:** Built with Streamlit for real-time, user-friendly research interaction.
 
-Students and researchers doing academic research
+This creates a **faster, smarter, and more productive research workflow** for students, analysts, developers, and information professionals. ([GitHub][1])
 
-Analysts summarizing articles and trends
+---
 
-Developers exploring AI-enhanced information retrieval
+## 🧠 **Key Features**
 
-Anyone looking to save time while reading and searching online
+✨ **Smart Query Expansion**
+Transforms imprecise questions into structured queries for better search output. ([GitHub][1])
 
-✨ Key Features
-🔁 1. Smart Query Rewriting
-Your input is rewritten by Gemini to be more specific, improving the quality of search results significantly.
+🔎 **Semantic Web Search**
+Performs context-aware retrieval of online documents using the Exa API. ([GitHub][1])
 
-🌐 2. AI-Powered Web Search
-Instead of using traditional keyword-based search, the Exa API returns results using deep AI models that understand the meaning behind your query.
+📝 **AI Summarization**
+Summarizes long-form web content into easy-to-read bullet points. ([GitHub][1])
 
-📄 3. Content Summarization
-Full-page search results are summarized into 3 bullet points by Gemini Flash 2.0, making it easy to skim and decide relevance.
+💻 **Interactive Streamlit Interface**
+Clean front-end enabling real-time input and output exploration. ([GitHub][1])
 
-⚡ 4. Real-time Interaction with Streamlit
-The frontend is built using Streamlit, making it responsive, easy to use, and entirely browser-based.# Ai-research-assistant
-This project is a lightweight AI-powered research assistant built with Streamlit, integrating Google's Gemini API and the Exa Search API. It enhances web research by rewriting vague queries, performing intelligent web searches, and summarizing content into concise bullet points — all in real time.
+---
+
+## 🗂 **Project Structure**
+
+```
+Ai-research-assistant/
+├── research_assistant.py     # Core AI logic + search/summarization flows  
+├── requirements.txt          # Python dependencies  
+├── LICENSE                   # MIT License  
+└── README.md                 # Project documentation  
+```
+
+---
+
+## 🛠️ **Technology Stack**
+
+| Component             | Technology                         |
+| --------------------- | ---------------------------------- |
+| Language              | Python                             |
+| AI APIs               | Google Gemini API, Exa Search API  |
+| Interface             | Streamlit                          |
+| Dependency Management | pip / requirements.txt             |
+| Deployment            | Local / Cloud Streamlit deployment |
+
+---
+
+## 📦 **Installation & Setup**
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/PranoyRoy2004/Ai-research-assistant.git
+   cd Ai-research-assistant
+   ```
+
+2. **Create a virtual environment**
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # macOS/Linux
+   venv\Scripts\activate      # Windows
+   ```
+
+3. **Install dependencies**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Set your API keys**
+   Export your environment variables for Gemini and Exa API credentials:
+
+   ```bash
+   export GEMINI_API_KEY="your_gemini_key"
+   export EXA_API_KEY="your_exa_key"
+   ```
+
+5. **Run the app**
+
+   ```bash
+   streamlit run research_assistant.py
+   ```
+
+---
+
+## 📈 **Use Cases**
+
+This AI research tool is ideal for:
+
+* 🎓 Students and academic researchers looking for precise summarizations
+* 📊 Analysts extracting insights from online sources
+* 🧪 Developers experimenting with AI-augmented applications
+* ✍️ Writers and professionals needing quick content overviews
+
+---
+
+## 📄 **License**
+
+This project is licensed under the **MIT License**. See the `LICENSE` file for details. ([GitHub][1])
+
+---
+
+## 📬 **Contact**
+
+Have questions, feedback, or collaboration ideas?
+
+📧 **Email:** [pranoy1968@gmail.com](mailto:pranoy1968@gmail.com)
+
+---
